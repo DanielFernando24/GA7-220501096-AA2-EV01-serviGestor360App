@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"> <!-- Define el proyecto Maven -->
+
+    <modelVersion>4.0.0</modelVersion> <!-- Define la versión del modelo Maven -->
+
+    <groupId>com.servigestor360</groupId> <!-- Identificador del grupo del proyecto -->
+
+    <artifactId>serviGestor360Web</artifactId> <!-- Nombre del proyecto -->
+
+    <version>1.0-SNAPSHOT</version> <!-- Versión del proyecto -->
+
+    <packaging>war</packaging> <!-- Indica que el proyecto será empaquetado como aplicación web -->
+
+    <dependencies> <!-- Inicio de dependencias -->
+
+        <dependency> <!-- Dependencia para usar Servlets con Jakarta -->
+            <groupId>jakarta.servlet</groupId> <!-- Grupo de la dependencia -->
+            <artifactId>jakarta.servlet-api</artifactId> <!-- Nombre de la dependencia -->
+            <version>6.0.0</version> <!-- Versión compatible con Tomcat 10 -->
+            <scope>provided</scope> <!-- Tomcat proporciona esta dependencia en ejecución -->
+        </dependency>
+
+        <dependency> <!-- Dependencia del conector MySQL -->
+            <groupId>com.mysql</groupId> <!-- Grupo del conector -->
+            <artifactId>mysql-connector-j</artifactId> <!-- Driver JDBC para MySQL -->
+            <version>8.3.0</version> <!-- Versión del conector -->
+        </dependency>
+
+    </dependencies> <!-- Fin de dependencias -->
+
+</project>

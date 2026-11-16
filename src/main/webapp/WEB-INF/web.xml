@@ -1,0 +1,6 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="6.0"> <!-- Define aplicación web Jakarta compatible con Tomcat 10 -->
+
+    <display-name>ServiGestor360Web</display-name> <!-- Nombre visible de la aplicación -->
+
+</web-app>

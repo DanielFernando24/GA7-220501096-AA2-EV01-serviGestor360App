@@ -1,0 +1,7 @@
+com\servigestor360\Main.class
+com\servigestor360\dao\SolicitudDao.class
+com\servigestor360\servlet\ClienteServlet.class
+com\servigestor360\model\Cliente.class
+com\servigestor360\model\Solicitud.class
+com\servigestor360\dao\ClienteDao.class
+com\servigestor360\config\ConexionBD.class
